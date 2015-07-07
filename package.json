@@ -1,0 +1,33 @@
+{
+  "name": "bigjs-neg",
+  "version": "1.0.0",
+  "description": "Add negated method to big.js",
+  "main": "./bigjs-neg",
+  "scripts": {
+    "test": "mocha",
+    "min": "uglifyjs bigjs-neg.js --comments '/^!/' --compress --mangle -o bigjs-neg.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tfoxy/bigjs-neg"
+  },
+  "bugs": {
+    "url": "https://github.com/tfoxy/bigjs-neg/issues"
+  },
+  "keywords": [
+    "bigjs",
+    "big.js",
+    "big",
+    "js",
+    "neg",
+    "negated",
+    "negative"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "big.js": "*"
+  },
+  "author": "Tomás Fox <tomas.c.fox@gmail.com>",
+  "license": "MIT"
+}
