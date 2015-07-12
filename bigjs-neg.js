@@ -7,7 +7,7 @@
   if (typeof define === 'function' && define.amd) {
     define([], factory);
   } else if (typeof exports === 'object') {
-    module.exports = factory(GLOBAL);
+    module.exports = factory();
   } else {
     root.bigjsNeg = factory();
   }
