@@ -1,4 +1,4 @@
-/*! bigjs-neg v1.0.0 https://github.com/tfoxy/bigjs-neg/LICENSE */
+/*! bigjs-neg v1.0.1 https://github.com/tfoxy/bigjs-neg/LICENSE */
 
 /*global define*/
 
