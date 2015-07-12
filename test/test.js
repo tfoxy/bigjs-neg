@@ -3,7 +3,7 @@ var Big = require('big.js');
 require('..')(Big);
 
 describe('bigjs-neg', function() {
-  "use strict";
+  'use strict';
 
   it('adds the neg method to a Big instance', function () {
     var two = new Big(2);
