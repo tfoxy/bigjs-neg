@@ -1,8 +1,9 @@
 /*! bigjs-neg v1.0.0 https://github.com/tfoxy/bigjs-neg/LICENSE */
 
 (function (root, factory) {
+  'use strict';
   if (typeof define === 'function' && define.amd) {
-    define([], factory.bind(null));
+    define([], factory);
   } else if (typeof exports === 'object') {
     module.exports = factory(GLOBAL);
   } else {
